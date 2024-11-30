@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="main">
+        <h1><b><u>STUDENT REGISTRATION FORM</u></b></h1>
+        <form action="url">
+             
+            <div class="firsthalf">    
+                <div class="fname">
+                    <label for="fname">First Name</label>
+                    <input type="text" placeholder="" name="" id="fname">(max 30character a-z and A-Z)
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" placeholder="" name="" id="lname">(max 30character a-z and A-Z)
+                </div>
+                <div class="date">
+                    <label for="date">DOB</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div class="email">
+                    <label for="email">EMAIL ID</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="number">
+                    <label for="number">Mobile Number</label>
+                    <input type="tel" name="number" id="number">(10 digit number)
+                </div>
+                <div class="gender">
+                    <label for="Gender">Gender
+                        <label for="male" style="position: relative;margin-left: 103px;" >male</label>
+                        <input type="radio" name="gender" id="male">
+                        
+                        <label for="female" >female</label>
+                        <input type="radio" name="gender" id="female">
+                    </label>
+                </div>
+                <div class="city">
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city">(max 30 character a-z and A-Z)
+                </div>
+                <div class="pin">
+                    <!-- <label for=""></label> -->
+                    <label for="pin">Pin Code</label>
+                    <input type="tel" name="pin" id="pin">(6 digit number)
+                </div>
+                <div class="state">
+                    <label for="state">state</label>
+                    <input type="text" name="state" id="state">(max 30 character a-z and A-Z)
+                </div>
+                <div class="country">
+                    <label for="country">Country</label>
+                    <input type="country" placeholder="Pakistan" name="country" id="country">
+                </div>
+                <div class="hobbies">
+                    <label for= "hobbies" >Hobbies
+                        <label for="Drawing" style="position: relative;margin-left: 100px;">Drawing</label>
+                        <input type="checkbox" name="hobbies" id="Drawing">
+                        <label for="Sketching">Sketching</label>
+                        <input type="checkbox" name="hobbies" id="Sketching">
+                        <label for="Dancing">Dancing</label>
+                        <input type="checkbox" name="hobbies" id="Dancing">
+                        <label for="Others">Others</label>
+                        <input type="checkbox" name="hobbies" id="Others">
+                        <input type="text" placeholder="otherhobbies" name="hobbies" id="hobbies">
+                    </label>
+                </div>
+                <div class="qualification">
+                     <label for="qualification">
+                        <table>
+                        
+                            <tr style="text-align: center;">
+                                <td style="padding-left: 23px;">QUALIFICATION </td>
+                                
+                                <td style="padding-left:30px;" >SI.No.</td>
+                                <td>Examination</td>
+                                <td>Board</td>
+                                <td>Percentage</td>
+                                <td>Years of Passing</td>
+                            </tr>
+                            <tr>
+                                
+                                <td></td>
+                                <td  style="padding-left:50px;" >1.</td>
+                                <td>Class X</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                
+                                <td></td>
+                                <td  style="padding-left:50px;" >2.</td>
+                                <td>Class XII</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                
+                                <td></td>
+                                <td  style="padding-left:50px;" >3.</td>
+                                <td>Graduation</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr>
+                                
+                                <td></td>
+                                <td  style="padding-left:50px;" >4.</td>
+                                <td>Masters</td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                            <tr style="text-align: center;">
+                               
+                                <td></td>
+                                <td  style="padding-left:50px;" ></td>
+                                <td></td>
+                                <td>(10 char max)</td>
+                                <td>(upto 2 decimals)</td>
+                            </tr>
+                        
+                        </table>
+                        </label>
+                </div>
+                <div class="courses">
+                    <label for="courses" >Courses Applied For
+                        <label for="bca">BCA</label>
+                        <input type="checkbox" name="courses" id="bca">
+                        <label for="BCom">B.Com</label>
+                        <input type="checkbox" name="courses" id="BCom">
+                        <label for="BSc">B.Sc</label>
+                        <input type="checkbox" name="courses" id="BSc">
+                        <label for="BA">B.A</label>
+                        <input type="checkbox" name="courses" id="BA">
+                    </label>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </div>    
+        </form>
+    </div>
+</body>
+</html>

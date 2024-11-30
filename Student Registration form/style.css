@@ -1,0 +1,79 @@
+h1{
+    color:white;
+    text-align: center;
+}
+ .firsthalf div {
+    position: relative;
+    display: block;
+ }
+ #set input{
+    position: relative;
+    margin-left: 100px;
+ }
+ #main{
+    position: relative;
+    border: 1px solid black;
+    width: 70%;
+    background-color: aqua;
+    margin-left: 200px;
+ }
+ #main label{
+    position: relative;
+    margin-left: 25px;
+ }
+ div{
+    position: relative;
+    margin-top: 20px;
+ }
+ .fname input{
+    position: relative;
+    margin-left: 79px;
+ }
+ .lname input{
+    position: relative;
+    margin-left: 80px;
+ }
+ .date input{
+    position: relative;
+    margin-left: 115px;
+ }
+ .email input{
+    position: relative;
+    margin-left: 79px;
+ }
+ .number input{
+    position: relative;
+    margin-left: 47px;
+ }
+ .city input{
+    position: relative;
+    margin-left: 123px;
+ }
+ .pin input{
+    position: relative;
+    margin-left: 92px;
+ }
+ .state input{
+    position: relative;
+    margin-left: 123px;
+ }
+ .country input{
+    position: relative;
+    margin-left: 100px;
+ }
+ .button{
+    position: relative;
+    margin-left: 300px;
+ }
+ body{
+	background: url(formbackground.jpg)no-repeat center fixed;
+	background-size: cover;
+}
+#main {
+	color: white;
+	position: relative;
+	background:transparent;
+	border-radius: 16px;
+	backdrop-filter:blur(8px);
+}
+ 
